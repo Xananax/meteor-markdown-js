@@ -4,7 +4,7 @@ A wrapper of [markdown-js](https://github.com/evilstreak/markdown-js)
 ## Usage
 It provide a template helper `markdown` as same as official http://docs.meteor.com/#showdown, and a `window.markdown()`
 > This package lets you use Markdown in your templates. It's easy: just put your markdown inside {{#markdown}} ... {{/markdown}} tags. You can still use all of the usual Meteor template features inside a Markdown block, such #each, and you still get reactivity.
-> 
+
 ## Hooks
 Since markdown-js presents an intermediate representation in JsonML, this package makes usage of this to present the user with several hooks that allow transforms to the structure.
 
